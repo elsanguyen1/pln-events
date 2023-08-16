@@ -1,0 +1,43 @@
+---
+eventName: "FIL Seoul Network Base" #the name of your track or event and its mandatory
+
+eventDescription: "The upcoming FIL Seoul is scheduled for September 6th to 7th. Presented by the Secured Finance with the support of the Filecoin Foundation, The FIL Seoul Network Base serves as the central hub for a range of activities including engaging lightning talks, immersive workshops, and collaborative coworking sessions. Moreover, it's an excellent opportunity to forge new connections and build meaningful friendships." #short description of your track or event limiting to 100-150 characters
+
+#topics will show up as labels on the event card.Only a maximum of 4 tags will be displayed on the event card. Some referneces for topics - Blockchain, Web3, Cryptocurrency, Tech Taks,Workshop etc.
+
+eventTopic: 
+  - "<Topic_1>"
+  - "<Topic_2>"
+  - "<Topic_3>"
+  - "<Topic_4>" 
+
+eventType: "Community Event" #Type of the event: Please choose one among the below options or just leave it blank
+
+location: "Seoul, Korea" or "Location TBD" #Specify the location of the event.If you aren't sure about the location then mention "Location TBD"
+
+venueName: "Ambassador Academy" #the event venue name (will show up on the event card) or just leave it blank
+
+venueAddress: "297 Dongho-ro, Jangchung-dong 2(i)-ga, Jung-gu, Seoul (서울 중구 동호로 297)" #the event venue address (will show up on a map) or just leave it blank
+
+venueMapsLink: "https://www.google.com/maps/place/%EC%97%A0%EB%B0%B0%EC%84%9C%EB%8D%94+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8/@37.5609815,126.9998856,17z/data=!3m1!4b1!4m6!3m5!1s0x357ca35df9a6caa9:0xe21e4386442a8773!8m2!3d37.5609815!4d127.0024605!16s%2Fg%2F11g30dssnp?entry=tts&shorturl=1" #the event venue Map link (will show up on a map) or just leave it blank
+
+website: "https://www.fil-seoul.com/" #make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc. or just leave it blank
+
+startDate: "09/06/2023" # the start date of the event , date format is MM/DD/YYYY eg: if it is February 16th 2023 => 02/16/2023
+
+endDate: "09/07/2023" #the end date of the event , date format is MM/DD/YYYY eg: if it is February 18th 2023 => 02/18/2023
+
+tag: "PLN Event" #Mention any one of the event types. Don't leave it blank.
+
+dateTBD: false or true #If you don't have concrete dates, add the approximate dates & set dateTBD: true.
+
+#Preferred means of contacts - this is a placeholder for email(for eg:  - email|mailto:<email_id>) and other social handles like Twitter, LinkedIn, Discord, etc. (for eg.   - 'twitter|https://twitter.com/IPFS/status/1629199396700098560?s=20')
+
+preferredContacts:
+  - '<contact_means>|<contact_url>'
+
+#Event host names and their respective logos(preferred size is 48px width, 48px height)-place the logo file on the path 'public/uploads' for eg.   - IPFS|ipfs-logo.png
+
+eventHosts:
+  - Secured Finance|<host_logo>
+---
