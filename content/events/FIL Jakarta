@@ -1,0 +1,43 @@
+---
+eventName: "FIL Jakarta" #the name of your track or event and its mandatory
+
+eventDescription: "Step into an extraordinary tech event, where the Web3, gaming, and tech communities converge to empower developers. Get ready to immerse yourself in cutting-edge innovations, insightful discussions, and hands-on workshops led by industry experts. This celebration of creativity and knowledge exchange will ignite a passion for pushing the boundaries of technology." #short description of your track or event limiting to 100-150 characters
+
+#topics will show up as labels on the event card.Only a maximum of 4 tags will be displayed on the event card. Some referneces for topics - Blockchain, Web3, Cryptocurrency, Tech Taks,Workshop etc.
+
+eventTopic: 
+  - "<Topic_1>"
+  - "<Topic_2>"
+  - "<Topic_3>"
+  - "<Topic_4>" 
+
+eventType: "Community Event" #Type of the event: Please choose one among the below options or just leave it blank
+
+location: "Jakarta, Indonesia"#Specify the location of the event.If you aren't sure about the location then mention "Location TBD"
+
+venueName: "Soehanna Hall" #the event venue name (will show up on the event card) or just leave it blank
+
+venueAddress: "The Energy Building, SCBD Lot Jl. Jend. sudirman kav 52-53 No.11A, RT.5/RW.3, Senayan, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12190, Indonesia" #the event venue address (will show up on a map) or just leave it blank
+
+venueMapsLink: "https://www.google.com/maps/place/Soehanna+Hall/@-6.2261777,106.7960022,15z/data=!3m1!4b1!4m6!3m5!1s0x2e69f1502bffcc4b:0xab344c81b447a7fe!8m2!3d-6.2261778!4d106.8062805!16s%2Fg%2F11cn5myw4h?entry=ttu" #the event venue Map link (will show up on a map) or just leave it blank
+
+website: "https://www.fil-jakarta.io/" #make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc. or just leave it blank
+
+startDate: "09/02/2023" # the start date of the event , date format is MM/DD/YYYY eg: if it is February 16th 2023 => 02/16/2023
+
+endDate: "09/02/2023" #the end date of the event , date format is MM/DD/YYYY eg: if it is February 18th 2023 => 02/18/2023
+
+tag: "PLN Event"#Mention any one of the event types. Don't leave it blank.
+
+dateTBD: false or true #If you don't have concrete dates, add the approximate dates & set dateTBD: true.
+
+#Preferred means of contacts - this is a placeholder for email(for eg:  - email|mailto:<email_id>) and other social handles like Twitter, LinkedIn, Discord, etc. (for eg.   - 'twitter|https://twitter.com/IPFS/status/1629199396700098560?s=20')
+
+preferredContacts:
+  - '<contact_means>|<contact_url>'
+
+#Event host names and their respective logos(preferred size is 48px width, 48px height)-place the logo file on the path 'public/uploads' for eg.   - IPFS|ipfs-logo.png
+
+eventHosts:
+  - MetaPals|<host_logo>
+---
