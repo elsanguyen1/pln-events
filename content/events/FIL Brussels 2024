@@ -1,0 +1,45 @@
+---
+eventName: "FIL Brussels" #the name of your track or event and its mandatory
+
+eventDescription: "The Filecoin community is descending upon Brussels, Belgium from July 8-10, alongside EthCC 2024, for an exploration into the realms of decentralized AI, DePIN, and compute. Join us for insightful talks, hands-on workshops, networking opportunities, and can’t miss announcements from trailblazing Filecoin ecosystem teams building at the forefront of the data economy.
+The FIL Brussels Network Base promises three packed days of programming, coworking, and collaboration, centrally located in the heart of Brussels’ iconic Grand Place.
+" #short description of your track or event limiting to 100-150 characters
+
+#Topics will show up as labels on the event card.Only a maximum of 4 tags will be displayed on the event card. Some references for topics - Blockchain, Web3, Cryptocurrency, Tech Talks, Workshop, etc.
+
+eventTopic: 
+  - "<Topic_1>"
+  - "<Topic_2>"
+  - "<Topic_3>"
+  - "<Topic_4>" 
+
+eventType: "Conference" 
+
+location: "Brussels, Belgium" 
+
+venueName: "Maison Grand Place" #the event venue name (will show up on the event card) or just leave it blank
+
+venueAddress: "Grand Place 19, 1000 Bruxelles, Belgium" 
+
+venueMapsLink: "https://maps.app.goo.gl/FgrUpCtC6BqKQs5RA" 
+
+website: "fil-brussels.io" 
+
+startDate: "07/09/2024" # the start date of the event , date format is MM/DD/YYYY eg: if it is February 16th 2023 => 02/16/2023
+
+endDate: "07/11/2024" 
+
+tag: "PLN Event"
+
+dateTBD: false or true #If you don't have concrete dates, add the approximate dates & set dateTBD: true.
+
+#Preferred means of contacts - this is a placeholder for email(for eg:  - email|mailto:<email_id>) and other social handles like Twitter, LinkedIn, Discord, etc. (for eg.   - 'twitter|https://twitter.com/IPFS/status/1629199396700098560?s=20')
+
+preferredContacts:
+  - '<contact_means>|<contact_url>'
+
+#Event host names and their respective logos(preferred size is 48px width, 48px height)-place the logo file on the path 'public/uploads' for eg.   - IPFS|ipfs-logo.png
+
+eventHosts:
+  - <host_name>|<host_logo>
+---
